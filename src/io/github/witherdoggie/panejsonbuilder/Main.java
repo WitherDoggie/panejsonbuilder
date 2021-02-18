@@ -25,7 +25,7 @@ public class Main {
         PrintWriter writer = new PrintWriter(name + "_pane_post.json");
         writer.println("{");
         writer.println("\t" + "\"parent\":" + "\"minecraft:block/template_glass_pane_post\"" + ",");
-        writer.println("\t " + "\ttextures\": {");
+        writer.println("\t " + "\"textures\": {");
         writer.println("\t\t " + "\"pane\" : " + "\"" + texturePath + "\",");
         writer.println("\t\t " + "\"edge\" : " + "\"" + texturePath + "\"");
         writer.println("\t}");
@@ -39,7 +39,7 @@ public class Main {
         PrintWriter writer = new PrintWriter(name + "_pane_noside.json");
         writer.println("{");
         writer.println("\t" + "\"parent\":" + "\"minecraft:block/template_glass_pane_noside\"" + ",");
-        writer.println("\t " + "\ttextures\": {");
+        writer.println("\t " + "\"textures\": {");
         writer.println("\t\t " + "\"pane\" : " + "\"" + texturePath + "\"");
         writer.println("\t}");
         writer.println("}");
@@ -52,7 +52,7 @@ public class Main {
         PrintWriter writer = new PrintWriter(name + "_pane_noside_alt.json");
         writer.println("{");
         writer.println("\t" + "\"parent\":" + "\"minecraft:block/template_glass_pane_noside_alt\"" + ",");
-        writer.println("\t " + "\ttextures\": {");
+        writer.println("\t " + "\"textures\": {");
         writer.println("\t\t " + "\"pane\" : " + "\"" + texturePath + "\"");
         writer.println("\t}");
         writer.println("}");
@@ -65,7 +65,7 @@ public class Main {
         PrintWriter writer = new PrintWriter(name + "_pane_side.json");
         writer.println("{");
         writer.println("\t" + "\"parent\":" + "\"minecraft:block/template_glass_pane_side\"" + ",");
-        writer.println("\t " + "\ttextures\": {");
+        writer.println("\t " + "\"textures\": {");
         writer.println("\t\t " + "\"pane\" : " + "\"" + texturePath + "\",");
         writer.println("\t\t " + "\"edge\" : " + "\"" + texturePath + "\"");
         writer.println("\t}");
@@ -79,7 +79,7 @@ public class Main {
         PrintWriter writer = new PrintWriter(name + "_pane_side_alt.json");
         writer.println("{");
         writer.println("\t" + "\"parent\":" + "\"minecraft:block/template_glass_pane_side_alt\"" + ",");
-        writer.println("\t " + "\ttextures\": {");
+        writer.println("\t " + "\"textures\": {");
         writer.println("\t\t " + "\"pane\" : " + "\"" + texturePath + "\",");
         writer.println("\t\t " + "\"edge\" : " + "\"" + texturePath + "\"");
         writer.println("\t}");
